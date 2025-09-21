@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "bold";
+  src: url("fonts/ComicShannsMonoNerdFont-Bold.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "branding";
+  src: url(fonts/AwesomescripttrialRegular-Rp7ve.otf);
+}
+
+body {
+  margin: 0px;
+}
+
+.top-banner {
+  width: 100%;
+  font-family: "branding";
+  color: black;
+  background-color: rgb(115, 147, 179);
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.deal-in {
+  font-family: "bold";
+  background-color: rgb(255 191 180);
+  margin: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 40px;
+  border: 2px solid;
+}
+
+.logos {
+  font-family: "bold";
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logos img {
+  width: 90px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 60px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}

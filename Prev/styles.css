@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "bold";
+  src: url(fonts/ComicShannsMonoNerdFont-Bold.otf);
+  font-display: swap;
+}
+
+body {
+  font-family: "bold";
+  background-color: grey;
+  margin-top: 6%;
+  font-size: 30px;
+  text-align: center;
+  background-image: url(assets/background.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.sub {
+  font-size: 20px;
+  margin-top: -10%;
+  padding-left: 5%;
+  text-align: center;
+  align-self: center;
+  transition: border ease 0.2s;
+}
+
+.pfp {
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  transition: border 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.pfp:hover {
+  border-color: black;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+.bar {
+  display: flex;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+}
+
+.bar a {
+  display: flex;
+  animation-duration: 0.3s;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  transition: ease-out 0.2s;
+}
+
+.bar img {
+  transition: transform 0.3px ease-in-out;
+  transition: ease-in-out 0.2s;
+}
+
+.bar a:hover img {
+  transform: scale(1.6);
+}

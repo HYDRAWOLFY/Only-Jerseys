@@ -1,0 +1,23 @@
+{
+  "name": "only-jerseys",
+  "version": "1.0.0",
+  "description": "inspired from OF, this is only jerseys made for jersey lovers ",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HYDRAWOLFY/Only-Jerseys.git"
+  },
+  "author": "Rajeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HYDRAWOLFY/Only-Jerseys/issues"
+  },
+  "homepage": "https://github.com/HYDRAWOLFY/Only-Jerseys#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -12,12 +12,12 @@ app.use(express.static(`${__dirname}/public`));
 // homepage route
 app.get('/',(req,res)=>{
     // res.send(200);
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile(__dirname + "/public/assets/index.html");
 });
 
 // login page route
 app.get('/login',(req,res)=>{
-    res.sendFile(__dirname + "/login.html");
+    res.sendFile(__dirname + "/public/assets/login.html");
 });
 
 app.post('/login',(req,res)=>{
@@ -26,6 +26,6 @@ app.post('/login',(req,res)=>{
 
 // register page route
 app.get('/register',(req,res)=>{
-    res.sendFile(__dirname + "/register.html");
+    res.sendFile(__dirname + "/public/assets/register.html");
 });
 

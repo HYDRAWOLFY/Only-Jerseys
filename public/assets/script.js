@@ -6,7 +6,7 @@ document.querySelectorAll(".buybtn").forEach(link => {
 
     const name = this.getAttribute("data-name");
 
-    const message = `Hello! I want to order:\n\nProduct: ${name}`;
+    const message = `Hello! I want to order:\nProduct: ${name}`;
     const encodedMessage = encodeURIComponent(message);
 
     const url = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;

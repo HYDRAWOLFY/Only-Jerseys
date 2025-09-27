@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "branding";
-  src: url(fonts/AwesomescripttrialRegular-Rp7ve.otf);
+  src: url("fonts/AwesomescripttrialRegular-Rp7ve.otf");
   font-display: swap;
 }
 

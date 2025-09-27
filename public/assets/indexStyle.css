@@ -29,16 +29,14 @@ body {
 
 .top-banner {
   position: sticky;
+  top: 0;
   width: 100%;
   font-family: "branding";
   color: white;
   background-color: #06213e;
   display: flex;
   justify-content: center;
-  font-size: 56px;
-  padding-left: 10px;
-  padding-bottom: 5px;
-  padding-top: 10px;
+  font-size: 22px;
 }
 
 .deal-in {

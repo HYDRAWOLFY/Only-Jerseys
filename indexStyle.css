@@ -1,24 +1,24 @@
 @font-face {
   font-family: "lato";
-  src: url("fonts/Lato-Regular.ttf");
+  src: url("assets/fonts/Lato-Regular.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "bold";
-  src: url("fonts/RobotoCondensed-VariableFont_wght.ttf");
+  src: url("assets/fonts/RobotoCondensed-VariableFont_wght.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "branding";
-  src: url("fonts/AwesomescripttrialRegular-Rp7ve.otf");
+  src: url("assets/fonts/AwesomescripttrialRegular-Rp7ve.otf");
   font-display: swap;
 }
 
 @font-face {
   font-family: "symbols";
-  src: url("fonts/SymbolsNerdFont-Regular.ttf");
+  src: url("assets/fonts/SymbolsNerdFont-Regular.ttf");
   font-display: swap;
 }
 
@@ -27,16 +27,47 @@ body {
   overflow-x: hidden;
 }
 
-.top-banner {
+.nav {
   position: sticky;
   top: 0;
   width: 100%;
-  font-family: "branding";
   color: white;
   background-color: #06213e;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1em;
+}
+
+.nav .top-banner{
+  font-family: "branding";
+  margin-left: 10px;
+}
+
+.nav ul{
+  display: flex;
+  gap: 25px;
+}
+
+.nav ul li{
+  list-style: none;
+  font-size: 2em;
+}
+
+.nav ul li a{
+  color: #007bff;
+  text-decoration: none;
+}
+
+.button{
+  display: flex;
   justify-content: center;
-  font-size: 22px;
+  font-size: 2em;
+  margin-right: 20px;
+}
+
+.nav ul a:hover{
+  opacity: 50%;
 }
 
 .deal-in {

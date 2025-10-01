@@ -38,6 +38,10 @@ body {
   justify-content: center;
   font-size: 22px;
   z-index: 9999999;
+  /* For background blur */
+  background: rgba(6, 33, 62, 0.89999);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .deal-in {
